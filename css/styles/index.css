@@ -1,0 +1,124 @@
+:root {
+    --color-white: #FFFFFF;
+    --color-black: #2D3436;
+    --color-dark-shadow: rgba(38, 50, 56, 0.16), 0px 4px 8px rgba(38, 50, 56, 0.08);
+    --color-gray-64: #5C5C5C;
+    --color-gray-48: #858585;
+    --color-gray-32: #ADADAD;
+    --color-gray-24: #C2C2C2;
+    --color-blue-dark: #0984E3;
+    --color-blue-light: #74B9FF;
+    --color-green-dark: #00B894;
+    --color-green-light: #55EFC4;
+    --color-yellow-dark: #FDCB6E;
+    --color-yellow-light: #FFEAA7;
+    --color-red-dark: #D63031;
+    --color-red-light: #FF7675;
+    --color-purple-dark: #6C5CE7;
+    --color-purple-light: #A29BFE;
+    --color-pink-dark: #E84393;
+    --color-pink-light: #FD79A8;
+    --font-family-b: InterB, sans-serif;
+    --font-family-m: InterM, sans-serif;
+    --font-family-r: InterR, sans-serif;
+    --font-family-l: InterL, sans-serif;
+    --animation-speed: .3s;
+    --animation-fnc: ease;
+    --animation: var(--animation-speed) var(--animation-fnc);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*body {
+    box-sizing: border-box;
+}
+
+
+/* *,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+ :focus,
+ :active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: 400;
+} */
+
+
+/*--------------------*/

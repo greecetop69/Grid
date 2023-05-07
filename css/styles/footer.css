@@ -1,0 +1,193 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 80px 0 135px 0;
+    background: url('/css/img/background/desktop-wave.svg') no-repeat;
+    background-position: bottom;
+    background-size: contain
+}
+
+.footer-title {
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: var(--color-gray-32);
+    font-family: var(--font-family-b);
+}
+
+.footer-social-container {
+    margin-top: 8px;
+    margin-bottom: 40px;
+}
+
+.footer-social-container a {
+    text-decoration: none;
+    outline: none;
+    margin-right: 37px;
+}
+
+.footer-social-container a:last-child {
+    margin-right: 0;
+}
+
+.footer-social-container a:focus img {
+    border-radius: 50%;
+    background: var(--color-yellow-light);
+}
+
+.footer-social-container img:hover {
+    border-radius: 50%;
+    background: var(--color-yellow-light);
+    text-decoration: none;
+}
+
+.footer-links-container {
+    margin-top: 16px;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-rows: repeat(3, auto);
+    grid-column-gap: 30px;
+    grid-row-gap: 16px;
+}
+
+.footer-links-container a {
+    width: 170px;
+    color: var(--color-black);
+    font-family: var(--font-family-r);
+    letter-spacing: 0.25px;
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+.footer-links-container a:hover,
+.footer-links-container a:focus {
+    text-decoration-line: underline;
+    transition: text-decoration-line var(--animation);
+}
+
+.footer-forms-mail {
+    font-size: 32px;
+    line-height: 48px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: -0.5px;
+    color: var(--color-purple-dark);
+    font-family: var(--font-family-b);
+    margin-bottom: 48px;
+}
+
+.footer-forms-mail:hover,
+.footer-forms-mail:focus {
+    text-decoration-line: underline;
+}
+
+.footer-feedback-form div {
+    position: relative;
+    display: flex;
+}
+
+.footer-feedback-form input {
+    width: 250px;
+    height: 40px;
+    background: rgb(76%, 76%, 76%, .24);
+    border-radius: 16px;
+    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 32px;
+    font-family: var(--font-family-r);
+    color: var(--color-black);
+    border: none;
+    padding: 8px 16px;
+    margin-top: 16px;
+}
+
+.footer-feedback-form input:first-child {
+    margin-right: 30px;
+}
+
+.footer-feedback-form input::placeholder {
+    font-size: 18px;
+    line-height: 32px;
+    font-family: var(--font-family-r);
+    color: var(--color-black);
+}
+
+.footer__icon {
+    position: relative;
+}
+
+.footer__icon::after {
+    content: '';
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-image: url('/css/img/icons/icon-user.svg');
+    position: absolute;
+    top: 23px;
+    left: 234px;
+}
+
+.footer__icon:nth-child(2)::after {
+    content: '';
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-image: url('/css/img/icons/icon-mail.svg');
+    position: absolute;
+    top: 23px;
+    left: 234px;
+}
+
+.footer-feedback-form textarea {
+    background: rgb(76%, 76%, 76%, .24);
+    border: 2px solid var(--color-purple-dark);
+    border-radius: 16px;
+    width: 370px;
+    height: 68px;
+    resize: none;
+    margin-right: 30px;
+    font-size: 18px;
+    line-height: 32px;
+    font-family: var(--font-family-b);
+    color: var(--color-black);
+}
+
+.footer-feedback-form textarea::placeholder {
+    color: var(--color-purple-dark);
+    font-size: 18px;
+    line-height: 32px;
+    font-family: var(--font-family-b);
+}
+
+.footer-feedback-form textarea {
+    padding: 12px 14px 0 4px;
+    font-size: 18px;
+    line-height: 32px;
+    font-family: var(--font-family-b);
+    color: var(--color-purple-dark);
+}
+
+.footer__icon__text_area {
+    position: relative;
+}
+
+.footer__icon__text_area::after {
+    content: '';
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-image: url('/css/img/icons/icon-edit.svg');
+    position: absolute;
+    top: 10px;
+    left: 340px;
+}
+
+.footer-feedback-form button {
+    background: var(--color-purple-dark);
+    border-radius: 16px;
+    width: 170px;
+    height: 80px;
+    box-shadow: 0px 8px 24px rgba(38, 50, 56, 0.1), 0px 16px 32px rgba(38, 50, 56, 0.08);
+}

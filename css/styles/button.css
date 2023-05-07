@@ -1,0 +1,39 @@
+.primary-button,
+.primary-button-corner,
+.default-button {
+    border-radius: 16px;
+    font-size: 24px;
+    font-family: var(--font-family-b);
+    cursor: pointer;
+    outline: none;
+}
+
+.primary-button,
+.primary-button-corner {
+    color: var(--color-white);
+    background: var(--color-purple-dark);
+    border: none;
+    border-radius: 999px;
+    transition: var(--animation);
+}
+
+.primary-button:hover,
+.primary-button-corner:hover,
+.primary-button:focus,
+.primary-button-corner:focus {
+    background: var(--color-purple-light);
+}
+
+.default-button {
+    border: 1px solid var(--color-gray-32);
+    background: transparent;
+    color: var(--color-purple-dark);
+}
+
+.default-button:hover,
+.default-button:focus {
+    color: var(--color-purple-light);
+    border-color: var(--color-gray-24);
+    transition: var(--animation), border-color var(--animation);
+    ;
+}
